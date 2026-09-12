@@ -1,1 +1,58 @@
-index.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panda & Bear Love 👑</title>
+<style>
+body{
+  margin:0;
+  background:#FFF8EC;
+  font-family: -apple-system, sans-serif;
+  text-align:center;
+  color:#5a3e36;
+}
+.container{max-width:400px; margin:auto; padding:25px 18px;}
+h1{font-size:34px; font-weight:800; margin:10px 0; color:#5a3e36;}
+.sub{color:#b5837a; font-size:15px; margin-bottom:22px;}
+.card{
+  background:white; border-radius:28px; padding:14px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+.card img{width:100%; border-radius:20px; display:block;}
+.btn{
+  background:#FF8C32; color:white; border:none;
+  padding:16px 42px; border-radius:28px;
+  font-size:19px; font-weight:600; margin:22px 0;
+  box-shadow:0 6px 16px rgba(255,140,50,0.4);
+  cursor:pointer;
+}
+#surprise{display:none;}
+.surprise-box{
+  background:white; border-radius:26px; padding:24px;
+  box-shadow:0 8px 22px rgba(0,0,0,0.07); margin-top:10px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div style="font-size:38px">🐼 🧸</div>
+  <h1>Panda & Bear Love 👑</h1>
+  <div class="sub">Welcome! We're so happy you're here</div>
+
+  <div class="card">
+    <img src="panda.jpg" alt="Panda Bear">
+  </div>
+
+  <button class="btn" onclick="document.getElementById('surprise').style.display='block'; window.scrollTo({top:600,behavior:'smooth'})">🧡 Click Me</button>
+
+  <div id="surprise">
+    <div class="surprise-box">
+      <div style="font-size:26px; color:#e8919c; font-weight:700;">🎀 ✨ Surprise ✨ 🎀</div>
+      <p style="color:#d68a94; margin-top:10px;">A sweet surprise awaits you tomorrow!</p>
+      <p style="margin-top:16px;">Hello Cutie! 🐼💖<br>My Pretty Little Baby! 🥺</p>
+      <p style="color:#b5837a; font-size:14px; margin-top:15px;">🌸 My little piece of happiness 🌸</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
