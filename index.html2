@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panda & Bear Love</title>
+<style>
+body{background:#FFF8F0;font-family:'Segoe UI',sans-serif;text-align:center;padding:15px;margin:0}
+.card{background:#fff;max-width:380px;margin:30px auto;border-radius:28px;padding:20px;box-shadow:0 12px 35px rgba(0,0,0,.15)}
+h1{color:#E36A2C;margin:5px 0 4px 0;font-size:26px;font-weight:800}
+.subtitle{color:#777;font-size:14px;margin:0 0 18px 0}
+img{width:100%;border-radius:22px;display:block;margin:10px 0 18px 0}
+button{background:#FF7A2E;color:#fff;border:none;padding:13px 38px;border-radius:50px;font-size:17px;font-weight:bold;cursor:pointer;box-shadow:0 4px 12px rgba(255,122,46,.4)}
+#surprise{display:none;background:#FFF6F0;border:2px dashed #FF9A6B;border-radius:18px;padding:20px;margin-top:22px}
+.msg{font-size:19px;color:#8B3A24;font-weight:600;line-height:1.6;margin:10px 0}
+</style>
+</head>
+<body>
+<div class="card">
+
+<!-- 1. TITLE ON TOP -->
+<h1>🐼 Panda & Bear 🧸</h1>
+
+<!-- 2. SUBTITLE -->
+<p class="subtitle">My favorite love story</p>
+
+<!-- 3. PICTURE IN MIDDLE -->
+<img src="panda.jpg" alt="Panda and Bear">
+
+<!-- 4. BUTTON -->
+<button onclick="document.getElementById('surprise').style.display='block'">🤎 Click Me</button>
+
+<!-- 5. SURPRISE AFTER CLICK -->
+<div id="surprise">
+<p class="msg">You + Me = Forever 🐼❤️🧸</p>
+<p class="msg">My Bear, You Are My Happiness 🌸</p>
+<p class="msg">I Love You More Than Yesterday 💖</p>
+</div>
+
+</div>
+</body>
+</html>
